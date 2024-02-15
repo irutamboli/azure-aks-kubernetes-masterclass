@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'e3d3c907-da33-4d1b-9aa2-e0a8e6f5b00e'
   imageRepository: 'app1nginx'
   containerRegistry: 'iruacr1985.azurecr.io'
-  dockerfilePath: '**/https://github.com/irutamboli/azure-aks-kubernetes-masterclass/tree/main/19-Azure-DevOps-with-AKS/19-01-Azure-DevOps-BuildandPush-to-ACR/Git-Repository-files/Dockerfile'
+  dockerfilePath: '19-Azure-DevOps-with-AKS/19-01-Azure-DevOps-BuildandPush-to-ACR/Git-Repository-files/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'iruacr1985c4e0-auth'
 
